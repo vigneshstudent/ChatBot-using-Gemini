@@ -2,7 +2,7 @@ const chatInput = document.querySelector(".chat-input textarea");
 const sendChatbtn = document.querySelector(".chat-input span");
 const chatbox = document.querySelector(".chatbox");
 const chatbotToggler = document.querySelector(".chatbot-toggler");
-const API_KEY = "AIzaSyBBxtepGEfpUB6p7KSj4S-yHBgTsgdPR20";
+const API_KEY = "";
 const inputInitHeight = chatInput.scrollHeight;
 
 const generateResponse = (incomingChatLi) => {
